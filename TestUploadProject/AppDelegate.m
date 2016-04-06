@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-     NSLog(@"application did finish launching");
+    NSLog(@"application did finish launching") ;
        NSLog(@"application did finish launching 2");
        NSLog(@"application did finish launching 3");
     return YES;
@@ -34,6 +34,8 @@
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
  NSLog(@"application did finish applicationWillResignActive ");
+    
+     NSLog(@"application did finish applicationWillResignActive ");
 
 }
 
