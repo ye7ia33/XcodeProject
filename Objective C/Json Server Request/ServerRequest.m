@@ -6,7 +6,7 @@
 //
 
 #import "ServerRequest.h"
-#define URL @"http://www.tacitapp.com/new-tacit/test2"
+#define URL @"http://www.example.com/file"
 #define GO_TO_POST @"action"
 @interface ServerRequest (){
     
